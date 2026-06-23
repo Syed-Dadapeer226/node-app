@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Node App</title>
+
+<link rel="icon"
+      type="image/svg+xml"
+      href="https://www.svgrepo.com/show/303266/nodejs-icon-logo.svg">
+
+<link rel="stylesheet"
+      href="/css/style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo" id="logoBtn">
+
+        <img src="https://nodejs.org/static/logos/nodejsStackedLight.svg"
+             alt="Node.js Logo">
+
+    </div>
+
+    <nav class="nav">
+
+        <a href="/">Home</a>
+        <a href="https://nodejs.org/en/about">About</a>
+        <a href="https://nodejs.org/docs/latest/api/">Docs</a>
+        <a href="https://nodejs.org/en/download">Downloads</a>
+        <a href="https://github.com/nodejs/node/blob/main/CONTRIBUTING.md">Community</a>
+
+    </nav>
+
+    <button id="menuBtn"
+            class="menu-btn">
+
+        ☰
+
+    </button>
+
+</header>
+
+<div id="mobileMenu"
+     class="mobile-menu">
+
+    <a href="/">Home</a>
+    <a href="https://nodejs.org/en/about">About</a>
+    <a href="https://nodejs.org/docs/latest/api/">Docs</a>
+    <a href="https://nodejs.org/en/download">Downloads</a>
+    <a href="https://github.com/nodejs/node/blob/main/CONTRIBUTING.md">Community</a>
+
+</div>
+
+<section class="hero">
+
+    <img class="hero-logo"
+         src="/images/node-logo.svg"
+         alt="Node.js Logo">
+
+    <h1>Welcome to Node Application</h1>
+
+    <p>
+
+        Node.js is a fast, scalable and event-driven JavaScript runtime built on Chrome's V8 
+        engine for creating high-performance backend services, APIs and real-time applications.
+
+    </p>
+
+    <div class="buttons">
+
+        <button
+            class="btn btn-primary"
+            onclick="alert('🥳 Node.js Runtime is Active!')">
+
+            Runtime Status
+
+        </button>
+
+        <button
+            class="btn btn-secondary"
+            onclick="window.open('https://nodejs.org/','_blank')">
+            Explore Node.js
+
+        </button>
+
+    </div>
+
+    <div class="status">
+
+        <div class="pulse"></div>
+
+        <span>
+            Runtime Online • Event Loop Active • Ready
+        </span>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="card">
+
+        <h3>Performance</h3>
+
+        <div class="value">Fast</div>
+
+        <p>
+            Powered by Google's V8 JavaScript Engine.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>NPM Packages</h3>
+
+        <div class="value">2M+</div>
+
+        <p>
+            Largest open-source package ecosystem
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Event Driven</h3>
+
+        <div class="value">Async I/O</div>
+
+        <p>
+            Non-blocking architecture for scalability.
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Cross Platform</h3>
+
+        <div class="value">Everywhere</div>
+
+        <p>
+           Runs on • Linux • Windows • macOS • Cloud
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Node.js Application Dashboard
+
+    <br><br>
+
+    <a href="https://nodejs.org/docs/latest/api/">Documentation</a>
+    <a href="https://nodejs.org/en">npm</a>
+    <a href="https://github.com/nodejs/node">Community</a>
+    <a href="https://nodejs.org/learn">Tutorials</a>
+
+</footer>
+
+<button id="themeToggle"
+        class="floating-theme-toggle">
+
+    <span id="themeIcon">🌙</span>
+
+</button>
+
+<script src="/js/app.js"></script>
+
+</body>
+</html>
